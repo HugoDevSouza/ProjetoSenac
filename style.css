@@ -1,0 +1,447 @@
+body {
+  font-family: "Junge", serif;
+  font-family: "Kalam", cursive;
+  transition: 0.5s;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+.header {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 155px;
+  height: 80px;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+.background {
+  height: 660px;
+  background: linear-gradient(180deg, #5a245a 34.38%, rgba(90, 36, 90, 0) 100%);
+  background-size: cover;
+}
+
+.navbar ul {
+  display: flex;
+  width: 670px;
+  justify-content: space-around;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+  color: #0e0e0e;
+}
+
+.nav-btn {
+  width: 226px;
+  background: #b6d658;
+  border-radius: 30px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1.5s;
+}
+
+.nav-btn:hover {
+  background-color: white;
+  color: #5a245a;
+}
+
+.banner {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1 1 600px;
+  flex-wrap: wrap;
+}
+
+.conteudo-banner h1 {
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+  width: 600px;
+}
+
+.conteudo-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+.btn-banner {
+  width: 225px;
+  height: 76px;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  font-family: "Junge";
+  line-height: 29px;
+  font-size: 24px;
+  background: rgba(182, 214, 88, 0.69);
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
+  border: none;
+  transition: 1.5s;
+}
+
+.btn-banner:hover {
+  background-color: #5a245a;
+  color: white;
+}
+
+.logocentro {
+  display: flex;
+  justify-content: center;
+}
+.quemsomos h1 {
+  font-size: 80px;
+  font-family: "Kalam";
+  color: #5a245a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.conteudo-quem-somos {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.conteudo-quem-somos p {
+  text-align: center;
+  font-size: 20px;
+  width: 800px;
+}
+
+.conteudo-quem-somos img {
+  width: 400px;
+  align-items: center;
+}
+.lojas {
+  margin-top: 70px;
+}
+
+.lojas ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
+}
+
+.section-cards {
+  background: linear-gradient(
+    183.84deg,
+    rgba(90, 36, 90, 0) 3.03%,
+    #5a245a 69.83%
+  );
+  background-size: cover;
+  height: 792px;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
+  gap: 20px;
+}
+
+.section-cards h1 {
+  margin: 70px 0 50px 0;
+  font-size: 80px;
+  text-align: center;
+  color: #5a245a;
+}
+
+.card img {
+  height: 300px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+}
+.card p {
+  width: 400px;
+  font-size: 20px;
+}
+
+.card h3 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Kalam";
+}
+
+
+.form h1{
+  margin: 70px 0 50px 0;
+  font-size: 50px;
+  text-align: center;
+  color: #5a245a;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ input{
+   
+  background: #B6D658;
+  border-radius: 5px;
+}
+
+.conteudo1{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  
+}
+
+.nome > input{
+  height: 30px;
+  width: 300px;
+  border: transparent;
+  padding: 20px;
+}
+
+
+
+.telefone > input{
+  height: 30px;
+  width: 300px;
+  padding: 20px;
+  border: transparent;
+}
+
+.email > input{
+  margin-top: 30px;
+  width: 692px;
+  height: 30px;
+  padding: 20px;
+  border: transparent;
+}
+input::selection{
+  color: white;
+}
+
+.text{
+  display: flex;
+  align-items: center;
+}
+
+textarea {
+  border: transparent;
+  background: #B6D658;
+  border-radius: 5px;
+  margin-top: 30px;
+  width: 690px;
+  height: 200px;
+  padding: 10px;
+}
+
+form button{
+  margin-top: 30px;
+  padding: 20px 30px;
+  border-radius:50px ;
+  background-color: #b6d658;
+  border: transparent;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+form button:hover{
+  background-color: black;
+  color: #b6d658;
+}
+
+
+
+footer p {
+  font-size: 1.6rem;
+  padding: 40px;
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .container h1 {
+    font-size: 50px;
+  }
+  #btn-mobile {
+    display: flex;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  #menu {
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0;
+    background-color: #5a245a;
+    flex-direction: column;
+    height: 0;
+    transition: 0.6s;
+    z-index: 1000;
+    overflow-y: hidden;
+  }
+
+  #btn-mobile {
+    border: none;
+    background: none;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  #nav.active #menu {
+    display: flex;
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+    transition: 0.6s;
+  }
+
+  #menu a {
+    
+    margin: 0 2rem;
+    
+    font-weight: bold;
+  }
+
+  #btn-mobile i {
+    color: white;
+    font-size: 20px;
+  }
+
+
+
+  .container p {
+    font-size: 18px;
+  }
+  .banner img {
+    width: 450px;
+    align-items: center;
+  }
+
+  .btn-banner {
+    font-size: 18px;
+    margin-bottom: 50px;
+    width: 155px;
+    height: 50px;
+  }
+
+  .logocentro img {
+    width: 450px;
+  }
+
+  .conteudo-quem-somos p {
+    width: 450px;
+    font-size: 16px;
+    margin: 50px auto;
+  }
+
+  .conteudo-quem-somos img {
+    width: 300px;
+  }
+
+  .section-cards {
+    height: 1400px;
+    align-items: center;
+    transition: 0.6s;
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    width: 100px;
+    height: 150px;
+  }
+
+  form{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .conteudo1{
+    flex-direction: column;
+  }
+  
+  
+  .telefone > input{
+    height: 30px;
+    width: 300px;
+    padding: 20px;
+    border: transparent;
+  }
+  
+  .email > input{
+    margin-top: 30px;
+    width: 300px;
+    height: 30px;
+    padding: 20px;
+    border: transparent;
+  }
+  input::selection{
+    color: white;
+  }
+  
+  .text{
+    display: flex;
+    align-items: center;
+  }
+  
+  textarea {
+    border: transparent;
+    background: #B6D658;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    
+}
